@@ -7,13 +7,12 @@ from edx_django_utils.plugins.constants import (
     PluginURLs, PluginSettings, PluginContexts
 )
 
-
 class OpenedxExtentionConfig(AppConfig):
     """
     Configuration for the openedx_extention Django application.
     """
 
-    name = 'openedx_extention'
+    name = './openedx_extention'
 
     # Class attribute that configures and enables this app as a Plugin App.
     plugin_app = {
